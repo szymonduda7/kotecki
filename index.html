@@ -252,36 +252,56 @@
         </div>
       </div>
 
-      <!-- Mobile: carousel, format jak sekcja Opinie -->
-      <div class="sm:hidden gallery-carousel-wrap">
-        <div class="gallery-carousel" id="galleryCarousel" aria-live="polite">
-          <div class="gallery-track" id="galleryTrack">
-            <button type="button" class="gallery-slide" data-index="0"><img src="images/1.webp" alt="Dom w trakcie budowy z zamontowanym pokryciem dachu i rusztowaniem" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="1"><img src="images/2.webp" alt="Wnętrze hali przemysłowej w trakcie realizacji obudowy z płyt warstwowych" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="2"><img src="images/3.webp" alt="Obróbka blacharska komina na dachu krytym blachą na rąbek" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="3"><img src="images/4.webp" alt="Hala magazynowa z obudową z płyt warstwowych, widok zewnętrzny" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="4"><img src="images/9.webp" alt="Dom jednorodzinny w otoczeniu lasu z ukończonym pokryciem dachu" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="5"><img src="images/12.webp" alt="Detal pokrycia dachowego z blachy na rąbek stojący" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="6"><img src="images/8.webp" alt="Elewacja hali z granatowych płyt warstwowych z oknami" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="7"><img src="images/10.webp" alt="Dach płaski pokryty papą termozgrzewalną" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="8"><img src="images/13.webp" alt="Obróbka blacharska pasa nadrynnowego na hali przemysłowej" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="9"><img src="images/15.webp" alt="Zadaszenie tarasu z dachówką i huśtawką ogrodową" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="10"><img src="images/16.webp" alt="Dach z oknami połaciowymi i lukarną krytymi dachówką" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="11"><img src="images/19.webp" alt="Narożnik hali z granatowych płyt warstwowych z czerwonymi oknami" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="12"><img src="images/20.webp" alt="Obróbka blacharska komina na dachu krytym blachą na rąbek, prace wykończeniowe" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="13"><img src="images/22.webp" alt="Hala przemysłowa z obudową z granatowych płyt warstwowych" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="14"><img src="images/5.webp" alt="Dach kryty dachówką z zadaszonym gankiem i rusztowaniem" loading="lazy"></button>
-            <button type="button" class="gallery-slide" data-index="15"><img src="images/14.webp" alt="Dach kryty dachówką z kominem i zadaszonym tarasem" loading="lazy"></button>
+      <!-- Mobile: carousel (port z galerii S&S Meble — pixel-width track + miniatury) -->
+      <div class="sm:hidden gallery__wrap">
+        <div class="gallery__viewport">
+          <div class="gallery__track" id="galleryTrack">
+            <div class="gallery__slide" data-index="0"><img src="images/1.webp" alt="Dom w trakcie budowy z zamontowanym pokryciem dachu i rusztowaniem" loading="lazy"></div>
+            <div class="gallery__slide" data-index="1"><img src="images/2.webp" alt="Wnętrze hali przemysłowej w trakcie realizacji obudowy z płyt warstwowych" loading="lazy"></div>
+            <div class="gallery__slide" data-index="2"><img src="images/3.webp" alt="Obróbka blacharska komina na dachu krytym blachą na rąbek" loading="lazy"></div>
+            <div class="gallery__slide" data-index="3"><img src="images/4.webp" alt="Hala magazynowa z obudową z płyt warstwowych, widok zewnętrzny" loading="lazy"></div>
+            <div class="gallery__slide" data-index="4"><img src="images/9.webp" alt="Dom jednorodzinny w otoczeniu lasu z ukończonym pokryciem dachu" loading="lazy"></div>
+            <div class="gallery__slide" data-index="5"><img src="images/12.webp" alt="Detal pokrycia dachowego z blachy na rąbek stojący" loading="lazy"></div>
+            <div class="gallery__slide" data-index="6"><img src="images/8.webp" alt="Elewacja hali z granatowych płyt warstwowych z oknami" loading="lazy"></div>
+            <div class="gallery__slide" data-index="7"><img src="images/10.webp" alt="Dach płaski pokryty papą termozgrzewalną" loading="lazy"></div>
+            <div class="gallery__slide" data-index="8"><img src="images/13.webp" alt="Obróbka blacharska pasa nadrynnowego na hali przemysłowej" loading="lazy"></div>
+            <div class="gallery__slide" data-index="9"><img src="images/15.webp" alt="Zadaszenie tarasu z dachówką i huśtawką ogrodową" loading="lazy"></div>
+            <div class="gallery__slide" data-index="10"><img src="images/16.webp" alt="Dach z oknami połaciowymi i lukarną krytymi dachówką" loading="lazy"></div>
+            <div class="gallery__slide" data-index="11"><img src="images/19.webp" alt="Narożnik hali z granatowych płyt warstwowych z czerwonymi oknami" loading="lazy"></div>
+            <div class="gallery__slide" data-index="12"><img src="images/20.webp" alt="Obróbka blacharska komina na dachu krytym blachą na rąbek, prace wykończeniowe" loading="lazy"></div>
+            <div class="gallery__slide" data-index="13"><img src="images/22.webp" alt="Hala przemysłowa z obudową z granatowych płyt warstwowych" loading="lazy"></div>
+            <div class="gallery__slide" data-index="14"><img src="images/5.webp" alt="Dach kryty dachówką z zadaszonym gankiem i rusztowaniem" loading="lazy"></div>
+            <div class="gallery__slide" data-index="15"><img src="images/14.webp" alt="Dach kryty dachówką z kominem i zadaszonym tarasem" loading="lazy"></div>
           </div>
+
+          <button type="button" class="gallery__arrow gallery__arrow--prev" id="gallPrev" aria-label="Poprzednie zdjęcie">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button type="button" class="gallery__arrow gallery__arrow--next" id="gallNext" aria-label="Następne zdjęcie">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <div class="gallery__counter" id="gallCounter" aria-live="polite">1 / 16</div>
         </div>
-        <div class="gallery-carousel-controls">
-          <button type="button" class="gallery-carousel-btn" id="galleryPrevBtn" aria-label="Poprzednie zdjęcie">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
-          </button>
-          <div class="gallery-carousel-dots" id="galleryDots" role="tablist" aria-label="Realizacje"></div>
-          <button type="button" class="gallery-carousel-btn" id="galleryNextBtn" aria-label="Następne zdjęcie">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
-          </button>
+
+        <div class="gallery__thumbs-outer">
+          <div class="gallery__thumbs" id="galleryThumbs">
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 1"><img src="images/1.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 2"><img src="images/2.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 3"><img src="images/3.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 4"><img src="images/4.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 5"><img src="images/9.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 6"><img src="images/12.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 7"><img src="images/8.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 8"><img src="images/10.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 9"><img src="images/13.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 10"><img src="images/15.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 11"><img src="images/16.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 12"><img src="images/19.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 13"><img src="images/20.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 14"><img src="images/22.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 15"><img src="images/5.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery__thumb" aria-label="Zdjęcie 16"><img src="images/14.webp" alt="" loading="lazy"></button>
+          </div>
         </div>
       </div>
     </div>
@@ -548,9 +568,7 @@
     items.forEach(function(el, i){
       el.addEventListener('click', function(){ openLightbox(i); });
     });
-    document.querySelectorAll('.gallery-slide').forEach(function(el){
-      el.addEventListener('click', function(){ openLightbox(parseInt(el.getAttribute('data-index'), 10)); });
-    });
+    document.addEventListener('gallery:slide-click', function(e){ openLightbox(e.detail.index); });
     document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
     document.getElementById('lightboxPrev').addEventListener('click', function(){ show(current - 1); });
     document.getElementById('lightboxNext').addEventListener('click', function(){ show(current + 1); });
@@ -669,51 +687,77 @@
 (function(){
   var track = document.getElementById('galleryTrack');
   if (!track) return;
-  var slides   = track.querySelectorAll('.gallery-slide');
-  var dotsWrap = document.getElementById('galleryDots');
-  var prevBtn  = document.getElementById('galleryPrevBtn');
-  var nextBtn  = document.getElementById('galleryNextBtn');
 
-  var current = 0;
+  var viewport = track.parentElement;
+  var slides   = track.querySelectorAll('.gallery__slide');
+  var total    = slides.length;
+  var thumbsEl = document.getElementById('galleryThumbs');
+  var thumbs   = thumbsEl.querySelectorAll('.gallery__thumb');
+  var counter  = document.getElementById('gallCounter');
+  var prevBtn  = document.getElementById('gallPrev');
+  var nextBtn  = document.getElementById('gallNext');
+  var current  = 0;
 
-  slides.forEach(function(_, i){
-    var dot = document.createElement('button');
-    dot.className = 'gallery-dot' + (i === 0 ? ' active' : '');
-    dot.setAttribute('role', 'tab');
-    dot.setAttribute('aria-label', 'Zdjęcie ' + (i + 1));
-    dot.addEventListener('click', function(){ goTo(i); });
-    dotsWrap.appendChild(dot);
-  });
-  var dots = dotsWrap.querySelectorAll('.gallery-dot');
+  function fixSlideWidths(){
+    var w = viewport.offsetWidth;
+    slides.forEach(function(s){ s.style.width = w + 'px'; s.style.minWidth = w + 'px'; });
+  }
 
-  function goTo(index){
-    current = (index + slides.length) % slides.length;
-    track.style.transform = 'translateX(-' + (current * 100) + '%)';
-    dots.forEach(function(d, i){ d.classList.toggle('active', i === current); });
+  function goTo(idx){
+    current = (idx + total) % total;
+    track.style.transform = 'translateX(-' + (current * viewport.offsetWidth) + 'px)';
+    counter.textContent = (current + 1) + ' / ' + total;
+    thumbs.forEach(function(t, i){ t.classList.toggle('active', i === current); });
+    if (thumbs[current]) thumbs[current].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
   }
   function next(){ goTo(current + 1); }
   function prev(){ goTo(current - 1); }
 
-  nextBtn.addEventListener('click', next);
-  prevBtn.addEventListener('click', prev);
+  requestAnimationFrame(function(){
+    fixSlideWidths();
+    track.style.transform = 'translateX(0)';
+    counter.textContent = '1 / ' + total;
+    thumbs[0].classList.add('active');
+  });
 
-  var touchStartX = 0, touchStartY = 0, horizLocked = false;
-  track.addEventListener('touchstart', function(e){
-    touchStartX = e.changedTouches[0].clientX;
-    touchStartY = e.changedTouches[0].clientY;
-    horizLocked = false;
+  window.addEventListener('resize', function(){
+    fixSlideWidths();
+    track.style.transition = 'none';
+    track.style.transform = 'translateX(-' + (current * viewport.offsetWidth) + 'px)';
+    requestAnimationFrame(function(){ track.style.transition = ''; });
   }, { passive: true });
-  track.addEventListener('touchmove', function(e){
-    var dx = Math.abs(e.changedTouches[0].clientX - touchStartX);
-    var dy = Math.abs(e.changedTouches[0].clientY - touchStartY);
-    if (!horizLocked && dx > dy && dx > 5) horizLocked = true;
-    if (horizLocked) e.preventDefault();
+
+  prevBtn.addEventListener('click', prev);
+  nextBtn.addEventListener('click', next);
+  thumbs.forEach(function(t, i){ t.addEventListener('click', function(){ goTo(i); }); });
+  slides.forEach(function(s, i){
+    s.addEventListener('click', function(){
+      if (s.dataset.dragged === '1') { s.dataset.dragged = '0'; return; }
+      var evt = new CustomEvent('gallery:slide-click', { detail: { index: i } });
+      document.dispatchEvent(evt);
+    });
+  });
+
+  var gx = 0, gy = 0, gallHorizLocked = false;
+  viewport.addEventListener('touchstart', function(e){
+    gx = e.changedTouches[0].clientX;
+    gy = e.changedTouches[0].clientY;
+    gallHorizLocked = false;
+  }, { passive: true });
+  viewport.addEventListener('touchmove', function(e){
+    var dx = Math.abs(e.changedTouches[0].clientX - gx);
+    var dy = Math.abs(e.changedTouches[0].clientY - gy);
+    if (!gallHorizLocked && dx > dy && dx > 5) gallHorizLocked = true;
+    if (gallHorizLocked) e.preventDefault();
   }, { passive: false });
-  track.addEventListener('touchend', function(e){
-    if (!horizLocked) return;
-    var delta = touchStartX - e.changedTouches[0].clientX;
-    if (Math.abs(delta) > 40) delta > 0 ? next() : prev();
-    horizLocked = false;
+  viewport.addEventListener('touchend', function(e){
+    if (!gallHorizLocked) return;
+    var d = gx - e.changedTouches[0].clientX;
+    if (Math.abs(d) > 40) {
+      slides[current].dataset.dragged = '1';
+      d > 0 ? next() : prev();
+    }
+    gallHorizLocked = false;
   });
 })();
 </script>
